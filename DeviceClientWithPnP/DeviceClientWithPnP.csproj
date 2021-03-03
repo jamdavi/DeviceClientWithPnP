@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Azure.Devices.Client">
+      <HintPath>..\..\..\..\..\..\repos\azure-iot-sdk-csharp\iothub\device\src\bin\Debug\netstandard2.1\Microsoft.Azure.Devices.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Devices.Shared">
+      <HintPath>..\..\..\..\..\..\repos\azure-iot-sdk-csharp\iothub\device\src\bin\Debug\netstandard2.1\Microsoft.Azure.Devices.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

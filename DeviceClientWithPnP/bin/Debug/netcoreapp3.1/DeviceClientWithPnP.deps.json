@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DeviceClientWithPnP/1.0.0": {
+        "dependencies": {
+          "Microsoft.Azure.Devices.Client": "1.35.0.0",
+          "Microsoft.Azure.Devices.Shared": "1.27.0.0"
+        },
+        "runtime": {
+          "DeviceClientWithPnP.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices.Client/1.35.0.0": {
+        "runtime": {
+          "Microsoft.Azure.Devices.Client.dll": {
+            "assemblyVersion": "1.35.0.0",
+            "fileVersion": "1.35.0.0"
+          }
+        }
+      },
+      "Microsoft.Azure.Devices.Shared/1.27.0.0": {
+        "runtime": {
+          "Microsoft.Azure.Devices.Shared.dll": {
+            "assemblyVersion": "1.27.0.0",
+            "fileVersion": "1.27.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeviceClientWithPnP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.Devices.Client/1.35.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.Devices.Shared/1.27.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
